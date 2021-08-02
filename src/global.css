@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-y: hidden;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container > .app {
+    width: 50vw;
+    height: 50vh;
+    border: 1px solid grey;
+}
